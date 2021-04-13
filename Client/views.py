@@ -19,7 +19,7 @@ def detail(request, Client_id): #affichage des détails Client
     #commande=Commande.objects.get(pk=Commande_id)
     contexts = {'client': client, 'commandes': commandes}
 
-    return render(request, 'Client/DetailC.html', contexts)
+    return render(request, 'Client/Detail.html', contexts)
 
 
 
