@@ -25,7 +25,7 @@ SECRET_KEY = 'pc&25y)(39$q1o*ujqj%vlvu1%78p2!+#%-tmi44pyd8#)mgfb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','peakpoke.herokuapp.com']
 
 
 # Application definition
